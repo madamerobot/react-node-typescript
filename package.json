@@ -1,0 +1,18 @@
+{
+  "name": "react-node-typescript",
+  "version": "1.0.0",
+  "description": "Boilerplate application to implement TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "nodemon run dist/index.js"
+  },
+  "author": "Valerie Fuchs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "type": "module"
+}
