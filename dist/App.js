@@ -8,7 +8,6 @@ class App {
         this.config();
     }
     config() {
-        // add routes
         this.app.use("/", routes_1.default);
     }
 }
